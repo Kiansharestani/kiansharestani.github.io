@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>جنگجویان پارسه - Jangjoian Parse</title>
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet"/>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Vazirmatn&display=swap');
+
+    body {
+      font-family: 'Vazirmatn', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #0f2027, #2c5364);
+      color: white;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      padding: 60px 20px;
+      text-align: center;
+      background: radial-gradient(circle, rgba(255,255,255,0.05), transparent);
+    }
+
+    h1 {
+      font-size: 3rem;
+    }
+
+    .team {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 30px 10px;
+      gap: 50px;
+    }
+
+    .member {
+      background: rgba(255,255,255,0.08);
+      padding: 20px;
+      border-radius: 25px;
+      max-width: 400px;
+      width: 90%;
+      box-shadow: 0 6px 16px rgba(0,0,0,0.4);
+      text-align: center;
+    }
+
+    .member img {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+
+    .member p {
+      margin: 5px 0;
+    }
+
+    .links {
+      text-align: center;
+      margin: 50px 10px;
+    }
+
+    .links h2 {
+      margin-bottom: 20px;
+    }
+
+    .links a {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 20px;
+      color: #00f7ff;
+      text-decoration: none;
+      background: rgba(255,255,255,0.1);
+      border-radius: 20px;
+      transition: background 0.3s;
+    }
+
+    .links a:hover {
+      background: rgba(0,247,255,0.2);
+    }
+
+    footer {
+      background: rgba(0,0,0,0.3);
+      padding: 20px;
+      text-align: center;
+    }
+
+    .copyright {
+      color: #aaa;
+      font-size: 0.9rem;
+      margin-top: 10px;
+    }
+
+    .decoration {
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: url('https://www.transparenttextures.com/patterns/stardust.png');
+      opacity: 0.04;
+      pointer-events: none;
+      z-index: -1;
+    }
+
+    @media (min-width: 600px) {
+      .team {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="decoration"></div>
+  <header data-aos="fade-down">
+    <h1>🎮 جنگجویان پارسه</h1>
+    <p>ما با هم بازی می‌کنیم، جلسه می‌ذاریم و هرکسی یه استعداد خاصی داره 😎</p>
+  </header>
+
+  <section class="team">
+    <div class="member" data-aos="fade-up">
+      <img src="kian.jpg" alt="Kian">
+      <p><strong>نام:</strong> کیان</p>
+      <p><strong>سن:</strong> 11 ساله</p>
+      <p><strong>لقب:</strong> Kian Programer</p>
+      <p>من برنامه‌نویسم! عاشق ساختن چیزهای خفن و بازی‌های کامپیوتری‌ام.</p>
+    </div>
+
+    <div class="member" data-aos="fade-up" data-aos-delay="100">
+      <img src="ryan.jpg" alt="Ryan">
+      <p><strong>نام:</strong> رایان</p>
+      <p><strong>سن:</strong> 9 ساله</p>
+      <p><strong>لقب:</strong> Ryan Car</p>
+      <p>ماشین‌باز دانا و حرفه‌ای! همیشه درباره ماشینا کلی می‌دونه و عاشقشه.</p>
+    </div>
+
+    <div class="member" data-aos="fade-up" data-aos-delay="200">
+      <img src="niki.jpg" alt="Niki">
+      <p><strong>نام:</strong> نیکی</p>
+      <p><strong>سن:</strong> 12 ساله</p>
+      <p><strong>لقب:</strong> Niki</p>
+      <p>ورزشکار پرانرژی گروهه و کسیه که جلسه‌هامونو جمع‌وجور و مرتب می‌کنه.</p>
+    </div>
+
+    <div class="member" data-aos="fade-up" data-aos-delay="300">
+      <img src="ava.jpg" alt="Ava">
+      <p><strong>نام:</strong> آوا</p>
+      <p><strong>سن:</strong> 10 ساله</p>
+      <p><strong>لقب:</strong> Ava Style</p>
+      <p>ویولونیست خوش‌ذوق و عاشق هنر! همیشه با طراحی‌هاش گروه رو قشنگ‌تر می‌کنه.</p>
+    </div>
+  </section>
+
+  <div class="links" data-aos="fade-up">
+    <h2>📢 کانال‌ها و چت‌هامون</h2>
+    <a href="https://ble.ir/Jangjoian_Parse" target="_blank">کانال بله</a>
+    <a href="https://ble.ir/Jangjoian_Parse_Chat" target="_blank">چت گروهی بله</a>
+    <a href="https://splus.ir/Jangjoian_Parse" target="_blank">کانال سروش‌پلاس</a>
+  </div>
+
+  <footer>
+    <p>ساخته شده با ❤️ توسط تیم خفن جنگجویان پارسه</p>
+    <div class="copyright">
+      © 2025 Jangjoian Parse — همه حقوق محفوظ است.
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>AOS.init();</script>
+</body>
+</html>
